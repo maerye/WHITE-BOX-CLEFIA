@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/11/22 14:35:35。
+     1>项目“E:\datastruct\CLEFIA\CLEFIA\CLEFIA.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\datastruct\clefia\clefia\test.cpp(813): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+       Link:
+         E:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\datastruct\CLEFIA\Debug\CLEFIA.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\datastruct\CLEFIA\Debug\CLEFIA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\datastruct\CLEFIA\Debug\CLEFIA.lib" /MACHINE:X86 Debug\test.obj
+         CLEFIA.vcxproj -> E:\datastruct\CLEFIA\Debug\CLEFIA.exe
+     1>已完成生成项目“E:\datastruct\CLEFIA\CLEFIA\CLEFIA.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.21
